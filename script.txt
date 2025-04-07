@@ -30,7 +30,7 @@ function CheckFile {
 $URLs = @(
     'https://raw.githubusercontent.com/minhfansub/dl1/refs/heads/main/d%C3%B2ng%20l%E1%BB%87nh%201.txt',
     'https://raw.githubusercontent.com/minhfansub/dl2/refs/heads/main/d%C3%B2ng%20l%E1%BB%87nh%202.txt',
-    'https://git.activated.win/massgrave/Microsoft-Activation-Scripts/raw/commit/313f240448953cd5fe3c5631f4e4de502f23fc9a/MAS/All-In-One-Version-KL/MAS_AIO.cmd'
+    'https://raw.githubusercontent.com/minhfansub/dl3/refs/heads/main/d%C3%B2ng%20l%E1%BB%87nh%203.txt'
 )
 
 foreach ($URL in $URLs | Sort-Object { Get-Random }) {
